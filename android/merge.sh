@@ -1,0 +1,1 @@
+jq -s '{ app:.[1].app, magisk:.[0].magisk, uninstaller:.[0].uninstaller, stub:.[0].stub}' <(curl "https://raw.githubusercontent.com/topjohnwu/magisk_files/master/stable.json" | jq .) <(curl "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/release.json" | jq .) > magisk.json
