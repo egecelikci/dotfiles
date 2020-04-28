@@ -1,7 +1,7 @@
 {
   "app": {
-    "version": "5537b083",
-    "versionCode": "282",
+    "version": "765d5d97",
+    "versionCode": "283",
     "link": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/app-release.apk",
     "note": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/notes.md"
   },
@@ -17,6 +17,6 @@
   },
   "stub": {
     "versionCode": "7",
-    "link": "https://raw.githubusercontent.com/topjohnwu/magisk_files/canary/stub-release.apk"
+    "link": "https://raw.githubusercontent.com/topjohnwu/magisk_files/stub/stub-release.apk"
   }
 }
